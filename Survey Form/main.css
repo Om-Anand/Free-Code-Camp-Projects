@@ -1,0 +1,132 @@
+html,
+body {
+  padding: 10px;
+  margin: 10px auto;
+  background: #00c6ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #0072ff,
+    #00c6ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0072ff,
+    #00c6ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+  margin: 0 auto;
+  /*   border:2px solid black; */
+  width: 65%;
+}
+
+header {
+  padding: 5px;
+}
+#title,
+#description {
+  text-align: center;
+  line-height: 15px;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 900;
+}
+
+#survey-form {
+  /*   border:2px solid red; */
+  background-color: #f7f9f9;
+  padding: 25px;
+  border-radius: 20px;
+  border: 2px solid skyblue;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  padding: 6px;
+}
+#name-label,
+#email-label,
+#number-label,
+#drop-label {
+  font-family: serif;
+  color: #34495e;
+  font-size: 26px;
+}
+#name,
+#email,
+#number,
+#dropdown {
+  width: 90%;
+  margin: 12px;
+  border: 1px solid skyblue;
+  background-color: #34495e;
+  outline: none;
+  padding: 15px;
+  border-radius: 10px;
+  color: whitesmoke;
+  font-size: 15px;
+}
+#dropdown {
+  width: 95%;
+  font-size: 20px;
+  background-color: #34495e;
+  border: 2px solid skyblue;
+  color: whitesmoke;
+}
+
+p {
+  font-family: serif;
+  color: #34495e;
+  font-size: 25px;
+  margin-left: 10px;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  width: 40px;
+  color: #34495e;
+  height: 20px;
+}
+
+span {
+  font-size: 25px;
+  color: #34495e;
+}
+
+#textarea {
+  width: 94%;
+  height: 100px;
+  border: 2px solid skyblue;
+  padding: 15px;
+  outline: none;
+  font-size: 20px;
+  border-radius: 14px;
+  background-color: #34495e;
+  color: whitesmoke;
+}
+
+#submit {
+  padding: 20px;
+  width: 100%;
+  margin: 30px auto;
+  color: #34495e;
+  font-size: 17px;
+  font-weight: 600;
+  background-color: #00c6ff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+#submit:hover {
+  border-radius: 20px;
+}
+
+option {
+  color: #34495e;
+  background: #fff;
+}

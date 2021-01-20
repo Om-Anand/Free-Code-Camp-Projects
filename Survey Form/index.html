@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+          <h1 id='title'>Lenovo Survey Form</h1>
+          <p id="description">
+            Help Us To Improve Platform.
+          </p>
+        </header>
+        <form id='survey-form'>
+          <div class='form-grp'>
+            <label for="name" id='name-label'>
+        Name   
+            </label>
+            <input type="text" name='fullname' id='name' placeholder='Enter Your Name'required>
+            </div>
+          <div class='form-grp'>
+            <label for="email" id='email-label'>
+        Email
+            </label>
+            <input type="email" name='Email-address' id='email' placeholder='Enter Your Email' required>
+            </div>
+          <div class='form-grp'>
+            <label for="number" id='number-label'>
+        Age
+            </label>
+            <input type="number" name='Age' id='number' placeholder='Enter Your Age' min='16' max='80'>
+            </div>
+          <div class='from-grp'>
+            <label for="dropdown" id='drop-label'>Select Lenovo Modal</label>
+            <select name="" id="dropdown">
+              <option value="Select" disabled selected>Select Options</option>
+              <option value="Idea">Idea</option>
+              <option value="Geninus">Geninus</option>
+              <option value="Legion">Legion</option>
+            </select>
+            </div>
+          <div class='form-grp'>
+            <p>Gender</p>
+            <label for="">
+              <input type="radio" name='gender'value='male'><span>Male<span>
+            </label>
+            <label for="">
+              <input type='radio' name='gender' value='female'><span>Female</span>
+            </label>
+            <label for="">
+              <input type="radio" name='gender'value='others'><span>Others</span>
+            </label>
+            <div class='form-grp'>
+              <p>Select The Services</p>
+              <label>
+                <input type="checkbox" name='prof1' value='a'><span>Speed</span>
+                </label>
+              <label>
+                <input type="checkbox" name='prof2' value='a1'><span>Hardware</span>
+                </label>
+              <label>
+                <input type="checkbox" name='prof3' value='a3'><span>UI & UX</span>
+                </label>
+              </div>
+            <div class='form-grp'>
+              <p>Any Comment Or Suggestion?</p>
+              <textarea id="textarea"placeholder='Suggestion'></textarea>
+            </div>
+            <div class='form-grp'>
+              <button type='submit'id='submit'>
+                SUBMIT
+              </button>
+            </div>
+          </div>
+          </form>
+      </div>
+</body>
+</html>
